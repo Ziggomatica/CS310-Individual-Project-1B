@@ -11,7 +11,7 @@ public class TicTacToeModel{
         
         X("X"), 
         O("O"), 
-        EMPTY("-");
+        EMPTY(" ");
 
         private String message;
         
@@ -31,10 +31,10 @@ public class TicTacToeModel{
     
     public enum Result {
         
-        X("X"), 
-        O("O"), 
-        TIE("Tie"), 
-        NONE("none");
+        X("X Wins!"), 
+        O("O Wins!"), 
+        TIE("Tie!"), 
+        NONE(" ");
 
         private String message;
         
